@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Roger González blog'
+AUTHOR = u'Roger González'
 SITENAME = u'Roger González - rogergonzalez.com.ve'
 SITETITLE = 'Roger González Blog'
 SITEURL = 'http://localhost:8000'
