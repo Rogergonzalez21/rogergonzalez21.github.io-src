@@ -1,0 +1,3 @@
+[submodule "svbhack-theme"]
+	path = svbhack-theme
+	url = https://github.com/Rogergonzalez21/pelican-svbhack.git

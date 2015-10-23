@@ -1,10 +1,12 @@
 Probando, probando
 ##################
 
-:date: 2015-10-22 16:34
+:date: 2010-10-03 10:20
+:category: test
 :slug: probando-probando
 :author: Roger González
 :summary: Probando, probando
+:tags: test
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
