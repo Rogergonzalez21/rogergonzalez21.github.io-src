@@ -2,11 +2,11 @@
 ##############################################################
 
 :date: 2015-10-23 8:20
-:category: Programming
+:category: Programación
 :slug: deploy-django-a-openshift
 :author: Roger González
 :summary: Probando, probando
-:tags: deploy, django, openshift, python, programming
+:tags: deploy, django, openshift, python
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
