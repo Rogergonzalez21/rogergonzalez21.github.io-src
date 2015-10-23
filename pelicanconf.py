@@ -38,9 +38,10 @@ DEFAULT_METADATA = {
     'status': 'draft',
 }
 MAIN_MENU = True
-MENUITEMS = (('CV', '/pages/about/'),
-			 ('Archives', '/archives/'),
-             ('Categories', '/category/'),
+MENUITEMS = (('Acerca de', '/pages/about/'),
+			 ('Curriculum', '/pages/curriculum/'),
+			 ('Archivos', '/archives/'),
+             ('Categorías', '/category/'),
              ('Tags', '/tag/'))
 
 # URL's
