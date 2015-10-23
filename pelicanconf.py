@@ -32,8 +32,11 @@ USER_LOGO_URL = SITEURL + '/images/yo.png'
 FAVICON = SITEURL + '/images/favicon.ico'
 GOOGLE_ANALYTICS = ''
 DISQUS_SITENAME = ''
-TAGLINE = 'Programador. De buen comer. Crítico. Siempre con ganas de aprender'
+TAGLINE = 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.'
 DELETE_OUTPUT_DIRECTORY = False
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
 MAIN_MENU = True
 MENUITEMS = (('CV', '/pages/about/'),
 			 ('Archives', '/archives/'),
