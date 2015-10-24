@@ -58,6 +58,7 @@ Educación
 Unidad Educativa "Colegio La Esperanza"
 ***************************************
 | **Bachiller en ciencias**
+| 2005 - 2010
 
 Universidad Tecnológica del Centro
 **********************************
@@ -67,7 +68,7 @@ Universidad Tecnológica del Centro
 Universidad Tecnológica del Centro
 **********************************
 | **Ingeniero en Información**
-| Todas las materias aprobadas. Tesis aprobada. A espera de gradiación.
+| Todas las materias aprobadas. Tesis aprobada. A espera de graduación.
 | 2013 - 2015
 
 Idiomas
@@ -109,3 +110,6 @@ Hobbies
 * Cine.
 * Viajar.
 * Investigar nuevas tecnologías.
+
+
+Para mayor información, por favor comunicarse vía `correo electrónico <mailto:rogergonzalez21@gmail.com>`_
