@@ -1,15 +1,14 @@
-about me
-########
+Hola Mundo!
+###########
 
-:date: 2015-10-22 16:34
+:date: 2015-10-24 15:01
 :slug: about
 :author: Roger González
 :summary: About me
 :status: hidden
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Soy Roger Gonzalez, Ingeniero en informática, graduado de la Universidad Tecnológica del Centro y bienvenidos a mi página web. Este proyecto tiene dando vueltas en mi cabeza desde hace aproximadamente 2 años (¡una buena cantidad de tiempo!). 
+
+Mi principal motivo es escribir sobre cosas que me gustan, programación, snipets de código, música, comida, viajes, ¡Lo que sea!
+
+Asi que **bienvenido**, espero que te sientas como en tu casa. 
