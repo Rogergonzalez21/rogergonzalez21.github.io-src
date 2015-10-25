@@ -68,8 +68,7 @@ ARCHIVES_SAVE_AS = 'archives/index.html'
 # Social widget
 SOCIAL = (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
           ('github', 'https://github.com/Rogergonzalez21'),
-          ('envelope-o', 'mailto:rogergonzalez21@gmail.com'),
-          ('stack-overflow', 'http://stackoverflow.com/users/4824187/roger-gonzalez'))
+          ('envelope-o', 'mailto:rogergonzalez21@gmail.com'))
 
 DEFAULT_PAGINATION = 5
 
