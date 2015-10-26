@@ -1,0 +1,11 @@
+404: Not found
+##############
+
+:date: 2015-10-22 8:40
+:summary: 404
+:status: hidden
+:slug: 404
+:save_as: 404.html
+:lang: en
+
+¡Oooops! This page doesn't seems to exist. Do you want to check out the `archive </archives/>`_?
