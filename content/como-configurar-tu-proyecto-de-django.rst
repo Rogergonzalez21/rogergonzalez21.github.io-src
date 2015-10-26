@@ -10,7 +10,7 @@
 
 Es hora de hacer tu primera aplicación web. En este pequeño tutorial, te voy a enseñar a configurar tu primera aplicación con Django.
 
-Primero, ¿Que demonios es Django?
+Primero, ¿Qué demonios es Django?
 ---------------------------------
 
 .. figure:: {filename}/images/django_tutorial/django.png
@@ -81,7 +81,7 @@ Crea un nuevo directorio, vamos a llamarlo :code:`proyecto`
 	user@pc:~$ mkdir proyecto 
 	user@pc:~$ cd proyecto
 
-Dentro de :code:`proyecto` vamos a iniciar nuestro primer entorno virtual de desarrollo (virtualenv). **¿Por qué necesitamos un virtualenv?** Porque cada proyecto puede tener sus propios paquetes con sus propias versiones. Es una buena práctica instalar los paquetes localmente en un entorno virtual por proyecto que globales.
+Dentro de :code:`proyecto` vamos a iniciar nuestro primer entorno virtual de desarrollo (virtualenv). **¿Por qué necesitamos un virtualenv?** Porque cada proyecto puede tener sus propios paquetes con sus propias versiones. Es una buena práctica instalar los paquetes localmente en un entorno virtual por proyecto.
 
 .. code-block:: bash
 
