@@ -11,9 +11,9 @@ Curriculum Vitae
 Personal information
 --------------------
 | Name: Roger Andrés González Sánchez. 
-| Nacionality: Venezolano.
+| Nacionality: Venezuelan.
 | Email: `rogergonzalez21@gmail.com <mailto:rogergonzalez21@gmail.com>`_.
-| Date of birth: 10 de Agosto de 1993 (22 años)
+| Date of birth: August 10, 1993 (22 years)
 
 Experiences
 -----------
