@@ -5,7 +5,7 @@ Curriculum Vitae
 :slug: curriculum
 :author: Roger González
 :summary: Curriculum Vitae
-:status: hidden
+:status: published
 :lang: en
 
 Personal information
