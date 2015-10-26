@@ -16,15 +16,49 @@ Primero, ¿Que demonios es Django?
 .. figure:: {filename}/images/django_tutorial/django.png
     :alt: Django
 
-    No, no me refiero a Jamie Foxx
+*- Django.*
+*- Can you spell it?*
+*- D-J-A-N-G-O. The 'D' is silent.*
 
 Django_ es un framework web hecho completamente en Python, escalable, que ayuda a un desarrollo rápido de aplicaciones web.
 
-Como está basado en Python, es muy sencillo de aprender. Aquí solo te voy a enseñar a instalar e iniciar tu primer proyecto de Django.
+Funciona con el lenguaje de programación Python_, que es muy sencillo de aprender. Aquí tienes un tutorial_ muy completo y entendible.
 
 
-Instalando los paquetes requeridos
-----------------------------------
+¿Y qué páginas web utilizan Django?
+-----------------------------------
+
+Buena pregunta, mi querido Padawan. Aquí te muestro 3 aplicaciónes grandes que usan Django:
+
+- Disqus_
+
+.. image:: {filename}/images/django_tutorial/disqus.png
+	:alt: Disqus
+	:target: https://disqus.com/home/explore/
+
+Si, la popular aplicación de comentarios, usada por millones de personas (¡Incluso en este sitio!), funciona con Django.
+
+- Instagram_
+
+.. image:: {filename}/images/django_tutorial/instagram.png
+	:alt: Instagram
+	:target: https://instagram.com/
+
+El sitio superpopular de compartir fotos tambien está hecho en Django.
+
+- Pinterest_
+
+.. image:: {filename}/images/django_tutorial/pinterest.png
+	:alt: Pinterest
+	:target: https://pinterest.com/
+
+Djago es popular entre los sítios de imagenes, porque provee todas las herramientas que se necesitan para **escalar** y soportar miles de vistas inmediatas de contenido.
+
+Aquí_ tienes mas páginas hechas con Django.
+
+
+¿Convencido? Entonces comencemos instalando los paquetes requeridos.
+--------------------------------------------------------------------
 
 Voy a asumir que estás usando Ubuntu Linux. Si tienes la ultima vesión, ya tienes Python instalado.
 
@@ -40,7 +74,7 @@ Estos son todos los paquetes que necesitaremos para la instalación de nuestra p
 Iniciando la aplicación
 -----------------------
 
-Crea un nuevo directorio, vamos a llamaro :code:`proyecto`
+Crea un nuevo directorio, vamos a llamarlo :code:`proyecto`
 
 .. code-block:: bash
 	
@@ -123,7 +157,12 @@ Igualmente, esto no es todo. Solo hemos configurado tu primer proyecto. Aún fal
 
 Mientras tanto, ¡Hasta la proxima!
 
-
+.. _Python: https://www.python.org/
+.. _tutorial: https://www.codecademy.com/es/tracks/python
+.. _Disqus: https://disqus.com/home/explore/
+.. _Instagram: https://instagram.com/
+.. _Pinterest: https://pinterest.com/
 .. _Django: https://www.djangoproject.com/
 .. _virtual environment: https://virtualenv.pypa.io/en/latest/
 .. _pip: https://es.wikipedia.org/wiki/Pip_%28administrador_de_paquetes%29
+.. _Aquí: http://codecondo.com/popular-websites-django/
