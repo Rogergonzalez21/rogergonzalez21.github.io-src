@@ -32,7 +32,7 @@ I18N_SUBSITES = {
 			 ('Archivos', '/es/archives/'),
              ('Categorías', '/es/category/'),
              ('Tags', '/es/tag/'),
-             ('Inglés', '/')),
+             ('English', '/')),
        	'THEME': 'svbhack-theme',
        	'TAGLINE': 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.',
         }
@@ -60,7 +60,7 @@ MENUITEMS = (('About', '/pages/about/'),
 			 ('Archive', '/archives/'),
              ('Category', '/category/'),
              ('Tags', '/tag/'),
-             ('Spanish', '/es/'))
+             ('Español', '/es/'))
 
 # URL's
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
