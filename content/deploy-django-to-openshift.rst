@@ -42,7 +42,7 @@ Voy a asumir que ya tienes Git instalado y usas Ubuntu.
 
 .. code-block:: bash
 
-    user@pc:~/$ git clone el-link-de-tu-respositorio-aqui repo
+    user@pc:~/$ git clone el-link-de-tu-repositorio-aqui repo
     user@pc:~/$ cd repo
 
 Si haces :code:`ls`:
@@ -99,7 +99,7 @@ Ya el proyecto está configurado. Empecemos con el wsgi_.
 Primero, debes editar el activho wsgi.py que vino directamente del repositorio de OpenShift con lo siguiente:
 
 
-¡No olvides de reemplazar **'tuProyectoDjango'** con el nombre de tu proyecto!.
+¡No olvides de reemplazar **'tuProyectoDjango'** con el nombre de tu proyecto!
 
 .. code-block:: python
     
@@ -154,11 +154,11 @@ Esto lo vuelve un archivo ejecutable.
 
 Seguimos con las modificaciones en 'settings'
 *********************************************
-Ya que el wsgy y los hooks están listos, tienes que modificar tu archivo 'settings' para que apunte en donde estan tus archivos 'static', 'media' y 'template':
+Ya que el wsgi y los hooks están listos, tienes que modificar tu archivo 'settings' para que apunte en donde estan tus archivos 'static', 'media' y 'template':
 
 Todas estas configuraciones están hechas para correr en los sitios predeterminados. Si hiciste algún cambio, reflejalo en tus settings. 
 
-¡Recuerda reemplazar **'tuAppDjango'** con el nombre de tu app!.
+¡Recuerda reemplazar **'tuAppDjango'** con el nombre de tu app!
 
 .. code-block:: Python
 
@@ -221,7 +221,7 @@ En tu archivo settings.py, debes agregar:
 
     ...
 
-¡Recuerda reemplazar **'tu-base-de-datos-OpenShift'** con el nombre de la base de datos MySQL que te dió OpenShift!.
+¡Recuerda reemplazar **'tu-base-de-datos-OpenShift'** con el nombre de la base de datos MySQL que te dió OpenShift!
 
 ¡Y listo!
 ---------
