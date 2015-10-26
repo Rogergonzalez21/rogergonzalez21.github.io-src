@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Roger González'
 SITENAME = u'Roger González - rogergonzalez.com.ve'
-SITETITLE = 'Roger González Blog'
+SITETITLE = 'Roger González'
 SITEURL = 'http://localhost:8000'
 #SITEURL = 'http://rogergonzalez21.github.io'
 
@@ -12,7 +12,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Caracas'
 
-DEFAULT_LANG = u'es'
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,6 +20,23 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
+# Language configs
+I18N_SUBSITES = {
+    'es': {
+        'MENUITEMS': (('Acerca de', '/es/pages/about/'),
+			 ('Curriculum', '/es/pages/curriculum/'),
+			 ('Archivos', '/es/archives/'),
+             ('Categorías', '/es/category/'),
+             ('Tags', '/es/tag/'),
+             ('Inglés', '/')),
+       	'THEME': 'svbhack-theme',
+       	'TAGLINE': 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.',
+        }
+    }
 
 # Other configs 
 DISPLAY_PAGES_ON_MENU = False
@@ -32,17 +49,18 @@ USER_LOGO_URL = SITEURL + '/images/yo.png'
 FAVICON = SITEURL + '/images/favicon.ico'
 GOOGLE_ANALYTICS = 'UA-69257856-1'
 DISQUS_SITENAME = 'rogergonzalez21'
-TAGLINE = 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.'
+TAGLINE = 'Pythonista. Love to eat. Critic. Music lover. Always wanting to learn more.'
 DELETE_OUTPUT_DIRECTORY = False
 DEFAULT_METADATA = {
     'status': 'draft',
 }
 MAIN_MENU = True
-MENUITEMS = (('Acerca de', '/pages/about/'),
-			 ('Curriculum', '/pages/curriculum/'),
-			 ('Archivos', '/archives/'),
-             ('Categorías', '/category/'),
-             ('Tags', '/tag/'))
+MENUITEMS = (('About', '/pages/about/'),
+			 ('Curriculum Vitae', '/pages/curriculum/'),
+			 ('Archive', '/archives/'),
+             ('Category', '/category/'),
+             ('Tags', '/tag/'),
+             ('Spanish', '/es/'))
 
 # URL's
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
