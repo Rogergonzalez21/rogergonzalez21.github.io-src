@@ -50,66 +50,59 @@ Primera Iglesia Bautista de Valencia
 
 Compuservicios Delforn
 **********************
-| Servicio de reparación de computadoras a domicilio.
-| Desde 2010 hasta la actualidad.
+| PC repairs services directly to your house.
+| From 2010.
 
-Educación
+Education
 ---------
 Unidad Educativa "Colegio La Esperanza"
 ***************************************
-| **Bachiller en ciencias**
+| **High school degree in Science**
 | 2005 - 2010
 
 Universidad Tecnológica del Centro
 **********************************
-| **Técnico Superior Universitario en Informática**
-| 2010 - 2013
-
-Universidad Tecnológica del Centro
-**********************************
-| **Ingeniero en Información**
-| Todas las materias aprobadas. Tesis aprobada. A espera de graduación.
+| **Computer Engineer**
 | 2013 - 2015
 
-Idiomas
--------
-| **Español**: Lengua materna.
-| **Inglés**: Primer idioma extranjero. Nivel alto en todas las competencias.
+Languages
+---------
+| **Spanish**: Mother toungue.
+| **English**: First foreign language. High level.
 
-Habilidades profesionales
--------------------------
-| Sistemas operativos:
+Professional Skills
+-------------------
+| Operating systems:
 
-* **Linux**: Nivel medio - alto.
-* **Windows XP - 8**: Nivel alto.
+* **Linux**: Medium - High.
+* **Windows XP - 8**: High.
 
-| Programación:
+| Programming:
 
-* **Python**: Nivel medio.
-* **JavaScript**: Nivel bajo.
-* **SQL**: Nivel bajo - medio.
+* **Python**: Medium.
+* **JavaScript**: Low.
+* **SQL**: Low - Medium
 
 | Web:
 
-* **HTML**: Nivel medio-alto.
-* **CSS**: Nivel medio.
-* **Bootstrap CSS Framework**: Nivel medio.
-* **Django Web Framework**: Nivel medio.
+* **HTML**: High.
+* **CSS**: Medium.
+* **Bootstrap CSS Framework**: Medium.
+* **Django Web Framework**: Medium.
 
-| Otras Herramientas:
+| Other tools:
 
-* **Suite Ofimática Office 2003 - 2013**: Nivel alto.
-* **Virtual Box**: Nivel alto.
-* **Git**: Nivel medio.
-* **Google Docs**: Nivel intermedio - alto.
+* **Suite Ofimática Office 2003 - 2013**: High.
+* **Virtual Box**: High.
+* **Git**: Medium.
+* **Google Docs**: Medium - High.
 
 Hobbies
 -------
-* Música.
-* Videojuegos.
-* Cine.
-* Viajar.
-* Investigar nuevas tecnologías.
+* Music.
+* Videogames.
+* Movies.
+* Travelling.
+* Investigating new technologies.
 
-
-Para mayor información, por favor comunicarse vía `correo electrónico <mailto:rogergonzalez21@gmail.com>`_
+For more info, please contact via `email <mailto:rogergonzalez21@gmail.com>`_.
