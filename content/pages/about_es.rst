@@ -5,7 +5,8 @@ Hola Mundo!
 :slug: about
 :author: Roger González
 :summary: About me
-:status: hidden
+:status: published
+:lang: es
 
 Soy Roger Gonzalez, Ingeniero en informática, graduado de la Universidad Tecnológica del Centro y bienvenidos a mi página web. Este proyecto tiene dando vueltas en mi cabeza desde hace aproximadamente 2 años (¡una buena cantidad de tiempo!). 
 
