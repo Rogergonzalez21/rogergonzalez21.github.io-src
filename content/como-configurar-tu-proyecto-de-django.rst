@@ -52,7 +52,7 @@ El sitio superpopular de compartir fotos tambien está hecho en Django.
 	:alt: Pinterest
 	:target: https://pinterest.com/
 
-Djago es popular entre los sítios de imagenes, porque provee todas las herramientas que se necesitan para **escalar** y soportar miles de vistas inmediatas de contenido.
+Django es popular entre los sítios de imagenes, porque provee todas las herramientas que se necesitan para **escalar** y soportar miles de vistas inmediatas de contenido.
 
 Aquí_ tienes mas páginas hechas con Django.
 
