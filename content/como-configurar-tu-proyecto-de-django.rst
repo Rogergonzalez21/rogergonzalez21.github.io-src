@@ -6,7 +6,8 @@
 :slug: como-configurar-tu-primer-proyecto-de-django
 :author: Roger González
 :summary: Es hora de hacer tu primera aplicación web. En este pequeño tutorial, te voy a enseñar a configurar tu primera aplicación con Django.
-:tags: django, proyecto, python, tutorial
+:tags: django, python, tutorial
+:status: published
 
 Es hora de hacer tu primera aplicación web. En este pequeño tutorial, te voy a enseñar a configurar tu primera aplicación con Django.
 
