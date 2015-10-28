@@ -29,45 +29,45 @@ Funciona con el lenguaje de programación Python_, que es muy sencillo de aprend
 ¿Y qué páginas web utilizan Django?
 -----------------------------------
 
-Buena pregunta, mi querido Padawan. Aquí te muestro 3 aplicaciónes grandes que usan Django:
+Buena pregunta, mi querido Padawan. Aquí te muestro 3 aplicaciones grandes que usan Django:
 
 - Disqus_
 
 .. image:: {filename}/images/django_tutorial/disqus.png
-	:alt: Disqus
-	:target: https://disqus.com/home/explore/
+    :alt: Disqus
+    :target: https://disqus.com/home/explore/
 
 Si, la popular aplicación de comentarios, usada por millones de personas (¡Incluso en este sitio!), funciona con Django.
 
 - Instagram_
 
 .. image:: {filename}/images/django_tutorial/instagram.png
-	:alt: Instagram
-	:target: https://instagram.com/
+    :alt: Instagram
+    :target: https://instagram.com/
 
-El sitio superpopular de compartir fotos tambien está hecho en Django.
+El sitio superpopular de compartir fotos también está hecho en Django.
 
 - Pinterest_
 
 .. image:: {filename}/images/django_tutorial/pinterest.png
-	:alt: Pinterest
-	:target: https://pinterest.com/
+    :alt: Pinterest
+    :target: https://pinterest.com/
 
-Django es popular entre los sítios de imagenes, porque provee todas las herramientas que se necesitan para **escalar** y soportar miles de vistas inmediatas de contenido.
+Django es popular entre los sitios de imágenes, porque provee todas las herramientas que se necesitan para **escalar** y soportar miles de vistas inmediatas de contenido.
 
-Aquí_ tienes mas páginas hechas con Django.
+Aquí_ tienes más páginas hechas con Django.
 
 
 ¿Convencido? Entonces comencemos instalando los paquetes requeridos.
 --------------------------------------------------------------------
 
-Voy a asumir que estás usando Ubuntu Linux. Si tienes la ultima vesión, ya tienes Python instalado.
+Voy a asumir que estás usando Ubuntu Linux. Si tienes la última versión, ya tienes Python instalado.
 
 Primero, tienes que instalar los paquetes de desarrollo, el `virtual environment`_ y pip_.
 
 .. code-block:: bash
-	
-	user@pc:~$ sudo apt-get install python-dev virtualenv python-pip
+    
+    user@pc:~$ sudo apt-get install python-dev virtualenv python-pip
 
 Estos son todos los paquetes que necesitaremos para la instalación de nuestra primera aplicación de Django.
 
@@ -78,56 +78,56 @@ Iniciando la aplicación
 Crea un nuevo directorio, vamos a llamarlo :code:`proyecto`
 
 .. code-block:: bash
-	
-	user@pc:~$ mkdir proyecto 
-	user@pc:~$ cd proyecto
+    
+    user@pc:~$ mkdir proyecto
+    user@pc:~$ cd proyecto
 
 Dentro de :code:`proyecto` vamos a iniciar nuestro primer entorno virtual de desarrollo (virtualenv). **¿Por qué necesitamos un virtualenv?** Porque cada proyecto puede tener sus propios paquetes con sus propias versiones. Es una buena práctica instalar los paquetes localmente en un entorno virtual por proyecto.
 
 .. code-block:: bash
 
-	user@pc:~/proyecto$ virtualenv env
-	New python executable in env/bin/python
-	# Se ejecutará la instalación de tu virtualenv
-	
-	user@pc:~/proyecto$ source env/bin/activate
-	(env)user@pc:~/proyecto$
+    user@pc:~/proyecto$ virtualenv env
+    New python executable in env/bin/python
+    # Se ejecutará la instalación de tu virtualenv
+    
+    user@pc:~/proyecto$ source env/bin/activate
+    (env)user@pc:~/proyecto$
 
-Ya estamos dentro de nuestro virtualenv (¿Ven como bash cambió el comienzo de nuestra linea? ahora comienza con :code:`env`). Igual, podemos revisar qué versión de Python estamos usando si escribimos en nuestro terminal :code:`which python`
+Ya estamos dentro de nuestro virtualenv (¿Ven como bash cambió el comienzo de nuestra línea? ahora comienza con :code:`env`). Igual, podemos revisar qué versión de Python estamos usando si escribimos en nuestro terminal :code:`which python`
 
 .. code-block:: bash
 
-	(env)user@pc:~/proyecto$ which python
-	/home/user/proyecto/env/bin/python
+    (env)user@pc:~/proyecto$ which python
+    /home/user/proyecto/env/bin/python
 
 Ahora, ¡A instalar Django!
 
 .. code-block:: bash
 
-	(env)user@pc:~/proyecto$ pip install django
-	Collecting django
-	...
+    (env)user@pc:~/proyecto$ pip install django
+    Collecting django
+    ...
 
 Espera, espera. ¿Qué está pasando aquí?
 ---------------------------------------
 
 Usando el administrador de paquetes de Python, :code:`pip` instalamos los paquetes **directamente en nuestro virtualenv**, así no necesitamos el uso de :code:`sudo`, porque no lo vamos a instalar como un paquete global.
 
-Luego de que instalamos Django, podemos ejecutar el creador de aplicaciónes automático de Django. Vamos a crear un proyecto que se llame :code:`tests`
+Luego de que instalamos Django, podemos ejecutar el creador de aplicaciones automático de Django. Vamos a crear un proyecto que se llame :code:`tests`
 
 .. code-block:: bash
-	
-	(env)user@pc:~/proyecto$ django-admin.py startproject tests
-	
-	# Revisamos si todo fué creado correctamente
-	
-	(env)user@pc:~/proyecto$ ls
-	env/ tests/
-	
-	# Accedemos a 'tests'
+    
+    (env)user@pc:~/proyecto$ django-admin.py startproject tests
+    
+    # Revisamos si todo fué creado correctamente
+    
+    (env)user@pc:~/proyecto$ ls
+    env/ tests/
+    
+    # Accedemos a 'tests'
 
-	(env)user@pc:~/proyecto$ cd tests
-	(env)user@pc:~/proyecto/tests$ 
+    (env)user@pc:~/proyecto$ cd tests
+    (env)user@pc:~/proyecto/tests$
 
 Dentro de :code:`tests` vive nuestro proyecto de Django.
 
@@ -138,12 +138,12 @@ Ejecutemos el servidor de Django para revisar que todo esté correcto.
 
 .. code-block:: bash
 
-	(env)user@pc:~/proyecto/tests$ python manage.py runserver
+    (env)user@pc:~/proyecto/tests$ python manage.py runserver
 
-	# Quizá aparezcan unos errores, es normal
+    # Quizá aparezcan unos errores, es normal
 
-	Starting development server at http://127.0.0.1:8000/
-	Quit the server with CONTROL-C.
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
 
 Si entramos en nuestro navegador a la dirección :code:`http://127.0.0.1:8000/`, nos saldrá este bello mensaje:
 
@@ -154,9 +154,9 @@ Si entramos en nuestro navegador a la dirección :code:`http://127.0.0.1:8000/`,
 ¡Funcionó! ¡Aplausos para tí!
 -----------------------------
 
-Igualmente, esto no es todo. Solo hemos configurado tu primer proyecto. Aún faltan crear tu aplicación, sus vistas, modelos, templates y por ultimo, aprender a hacer el deployment... Pero no te asustes, todo lo cubriremos mas adelante.
+Igualmente, esto no es todo. Solo hemos configurado tu primer proyecto. Aún faltan crear tu aplicación, sus vistas, modelos, templates y por último, aprender a hacer el deployment... Pero no te asustes, todo lo cubriremos más adelante.
 
-Mientras tanto, ¡Hasta la proxima!
+Mientras tanto, ¡Hasta la próxima!
 
 .. _Python: https://www.python.org/
 .. _tutorial: https://www.codecademy.com/es/tracks/python

@@ -5,17 +5,17 @@
 :category: Programación
 :slug: deploy-django-a-openshift
 :author: Roger González
-:summary: 
+:summary:
     Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?
 :tags: deploy, django, openshift, python, tutorial
 
 Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?.
 
-Aqui llega Red Hat al rescate con su servicio PaaS_, OpenShift_.
+Aquí llega Red Hat al rescate con su servicio PaaS_, OpenShift_.
 
 ¿Qué es OpenShift? ¿Eso con qué se come?
 ----------------------------------------
-OpenShift es el servicio de "Plataforma-como-servicio" de Red Hat. Simple, ¿no?. Lo mas importante que tiene OpenShift es que con su cuenta gratuita **se pueden tener hasta 3 aplicaciones en vivo**, incluso con **dominios propios**, caracteristicas que lo convierten en una de las mejores opciones para hacer deploy de aplicaciones web. 
+OpenShift es el servicio de "Plataforma-como-servicio" de Red Hat. Simple, ¿no?. Lo más importante que tiene OpenShift es que con su cuenta gratuita **se pueden tener hasta 3 aplicaciones en vivo**, incluso con **dominios propios**, características que lo convierten en una de las mejores opciones para hacer deploy de aplicaciones web.
 
 Ya creé mi cuenta en OpenShift, ¿Ahora qué?
 -------------------------------------------
@@ -25,7 +25,7 @@ via Git.
 Luego, desde tu panel de control debes **crear tu primera aplicación**.
 
 .. image:: {filename}/images/deploy_django/add_aplication.png
-    :alt: Añadir aplicacion
+    :alt: Añadir aplicación
 
 Para efectos de este tutorial, vamos a crear una aplicación de Python 2.7.
 
@@ -35,7 +35,7 @@ Para efectos de este tutorial, vamos a crear una aplicación de Python 2.7.
 Llenamos toda la información que nos pide, y luego esperamos a que nos lleve al panel de control de la aplicación.
 Una vez en el panel de control, añadimos el cartucho de MySQL y el de PHPMyAdmin (opcional).
 
-¡Ahora podemos clonar nuestro repositorio en OpenShift via Git! En la parte derecha del panel de control
+¡Ahora podemos clonar nuestro repositorio en OpenShift vía Git! En la parte derecha del panel de control
 nos dice "Source code". Ese es el link de nuestro repositorio, al que podemos acceder con "git clone" desde el terminal.
 
 Voy a asumir que ya tienes Git instalado y usas Ubuntu.
@@ -57,7 +57,7 @@ Si haces :code:`ls`:
 Allí vas a pegar toda tu aplicación (si tienes una), o vas a crear una nueva.
 
 Ahora viene lo básico. Crear tu virtualenv, activarlo, instalar las dependencias desde tu requirements.txt,
-etc, etc, etc... 
+etc, etc, etc...
 
 Luego de que hagas todo esto, coloca esto en tu terminal:
 
@@ -67,7 +67,7 @@ Luego de que hagas todo esto, coloca esto en tu terminal:
     user@pc:~/repo$ mkdir wsgi/static
     user@pc:~/repo$ touch wsgi/static/.gitkeep
 
-Esto lo usaremos mas adelante, es bueno tenerlo listo.
+Esto lo usaremos más adelante, es bueno tenerlo listo.
 
 Si has seguido todos los pasos correctamente, deberías tener el siguiente esquema de proyecto:
 
@@ -115,7 +115,7 @@ Primero, debes editar el activho wsgi.py que vino directamente del repositorio d
     from tuProyectoDjango.wsgi import application
 
 
-Crea un archivo que se llame "build" (así, sin extension), añade los siguientes scripts y guardalos en :code:`.openshift/action_hooks`. Estos van a ser ejecutados cada vez que se haga el deployment de la aplicación.
+Crea un archivo que se llame "build" (así, sin extensión), añade los siguientes scripts y guardalos en :code:`.openshift/action_hooks`. Estos van a ser ejecutados cada vez que se haga el deployment de la aplicación.
 
 .. code-block:: bash
 
@@ -140,7 +140,7 @@ Crea un archivo que se llame "build" (así, sin extension), añade los siguiente
 
     ########################### end of file
 
-El primero crea la carpeta de "media" en el root del proyecto de OpenShift si esta no existe y crea un enlace simbolico a la ruta :code:`/wsgi/static/media` (recuerdan cuando creamos :code:`/wsgi/static/`?). 
+El primero crea la carpeta de "media" en el root del proyecto de OpenShift si esta no existe y crea un enlace simbólico a la ruta :code:`/wsgi/static/media` (recuerdan cuando creamos :code:`/wsgi/static/`?).
 
 El segundo, activa la virtualenv en OpenShift, ejecuta las migraciones y el collectstatic_.
 
@@ -156,7 +156,7 @@ Seguimos con las modificaciones en 'settings'
 *********************************************
 Ya que el wsgi y los hooks están listos, tienes que modificar tu archivo 'settings' para que apunte en donde estan tus archivos 'static', 'media' y 'template':
 
-Todas estas configuraciones están hechas para correr en los sitios predeterminados. Si hiciste algún cambio, reflejalo en tus settings. 
+Todas estas configuraciones están hechas para correr en los sitios predeterminados. Si hiciste algún cambio, refléjalo en tus settings.
 
 ¡Recuerda reemplazar **'tuAppDjango'** con el nombre de tu app!
 
@@ -181,7 +181,7 @@ En tu archivo settings.py, debes agregar:
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
     # Agregar esto!
-    ON_OPENSHIFT = False 
+    ON_OPENSHIFT = False
     if 'OPENSHIFT_REPO_DIR' in os.environ:
         ON_OPENSHIFT = True
     # Fin
@@ -238,13 +238,13 @@ Ya todo debería de estar funcionando. en tu terminal escribe:
     user@pc:~/repo$ git push
     # Por ahí se nos va la app!
 
-Luego que termine el deployment de tu app, si visitas la URL deberías ver tu app corriendo sin ningun problema. Aveces me gusta revisar que la base de datos hizo bien las migraciones. Para eso usas PHPMyAdmin. Si no lo agregaste al comienzo del tutorial, puedes agregar el cartucho ahora.
+Luego que termine el deployment de tu app, si visitas la URL deberías ver tu app corriendo sin ningún problema. Aveces me gusta revisar que la base de datos hizo bien las migraciones. Para eso usas PHPMyAdmin. Si no lo agregaste al comienzo del tutorial, puedes agregar el cartucho ahora.
 
 Espero que hayas podido hacer tu deployment sin problema, y cualquier cosa, ¡No dudes en contactarme!.
 
 Especiales agradecimientos al usuario `Luis Masuelli`_ de Stack-Overflow, que hizo `este maravilloso aporte`_.
 
-Hasta la proxima. 
+Hasta la próxima.
 
 .. _PaaS: https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_
 .. _Openshift: https://openshift.redhat.com/
