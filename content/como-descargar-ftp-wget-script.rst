@@ -1,12 +1,13 @@
 ¿Cómo descargar automáticamente de un FTP usando wget y cron?
 #############################################################
 
-:date: 2015-10-23 16:10
+:date: 2015-10-30 16:10
 :category: Tutoriales
 :slug: descargar-ftp-usando-wget-y-cron
 :author: Roger González
 :summary: Hace unos días me mandaron a configurar una PC prehistorica para hacer respaldos automáticos de un servidor web. Una antigua Intel Dual Core con 2GB de Ram y un HDD de 320GB. Aprende a programar un script de bash que descargue la información de un FTP vía wget con cron.
-:tags: wget, cron, ftp, descargar, script, bash
+:tags: wget, cron, ftp, descargar, script, bash, tutorial
+:status: published
 
 Hace unos días me mandaron a configurar una PC prehistorica para hacer respaldos automáticos de un servidor web. Una antigua Intel Dual Core con 2GB de Ram y un HDD de 320GB (los respaldos no son tan pesados, 8GB a lo sumo).
 
@@ -48,8 +49,9 @@ Ok, ¡Empecemos!
     mkdir $today
 
     cd $today
-
+    user@pc:~$ mailx -s "¡Backup comenzado!" "correo_destinatario@servidor.com" < /dev/null
     wget --timeout 20 -m -nH --user "ftpuser" --password "ftppassword" ftp://ftpserver.com
+    user@pc:~$ mailx -s "¡Backup terminado!" "correo_destinatario@servidor.com" < /dev/null
 
 ¡No te asustes! Voy a explicar paso a paso lo que hace cada uno de los comandos.
 
@@ -58,6 +60,7 @@ Ok, ¡Empecemos!
 - :code:`cd ~/backups`:  Entra a una carpeta llamada 'backups', que voy a crear más adelante.
 - :code:`mkdir $today`: Crea una carpeta con el día de hoy ('dia_mes_Año').
 - :code:`cd $today`: Accede a la carpeta creada.
+- :code:`mailx -s`: mailx es un programa que se usa para mandar correos. En esta_ entrada puedes saber mas de eso.
 
 Aquí me voy a detener un poco y explicar pausadamente.
 
@@ -123,3 +126,4 @@ Hasta la próxima.
 .. _scripts: https://es.wikipedia.org/wiki/Script
 .. _bash: https://es.wikipedia.org/wiki/Bash
 .. _Aquí: https://help.ubuntu.com/community/CronHowto
+.. _esta: {filename}/enviar-un-mail-con-mailx.rst
