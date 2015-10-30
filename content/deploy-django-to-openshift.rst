@@ -7,7 +7,7 @@
 :author: Roger González
 :summary:
     Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?
-:tags: deploy, django, openshift, python, tutorial
+:tags: deploy, django, openshift, python
 
 Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?.
 

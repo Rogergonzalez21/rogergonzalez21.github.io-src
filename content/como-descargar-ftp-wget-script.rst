@@ -6,7 +6,7 @@
 :slug: descargar-ftp-usando-wget-y-cron
 :author: Roger González
 :summary: Hace unos días me mandaron a configurar una PC prehistorica para hacer respaldos automáticos de un servidor web. Una antigua Intel Dual Core con 2GB de Ram y un HDD de 320GB. Aprende a programar un script de bash que descargue la información de un FTP vía wget con cron.
-:tags: wget, cron, ftp, descargar, script, bash, tutorial
+:tags: wget, cron, ftp, descargar, script, bash
 :status: published
 
 Hace unos días me mandaron a configurar una PC prehistorica para hacer respaldos automáticos de un servidor web. Una antigua Intel Dual Core con 2GB de Ram y un HDD de 320GB (los respaldos no son tan pesados, 8GB a lo sumo).

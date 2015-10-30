@@ -6,7 +6,7 @@
 :slug: enviar-un-mail-con-mailx
 :author: Roger González
 :summary: Hoy vengo con un tutorial un poco más corto y directo al grano. **¿Cómo envío un correo por bash?**
-:tags: mail, mailx, tutorial, bash, script
+:tags: mail, mailx, bash, script
 :status: published
 
 Hoy vengo con un tutorial un poco más corto y directo al grano. **¿Cómo envío un correo por bash?**.
