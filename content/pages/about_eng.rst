@@ -8,8 +8,8 @@ Hello world!
 :status: published
 :lang: en
 
-My name is Roger González, Computer engineer graduated in the "Universidad Tecnológica del Centro" in Valencia, Venezuela, and welcome to my webpage. I've been planning this proyect for almost 2 years! (quite a long time!).
+My name is Roger González, I am a Computer Engineer who graduated from "Universidad Tecnológica del Centro" in Valencia, Venezuela. Welcome to my webpage. I've been planning this project for almost 2 years now! (Quite a long time!).
 
-My principal motive is to write about things that I like, like programming, code snipets, music, food, travels, basicly anything!
+My principal drive is to write about things that I like, such as programming, code snipets, music, food, travels, basically about anything and everything!
 
 So **welcome**, make yourself at home.
