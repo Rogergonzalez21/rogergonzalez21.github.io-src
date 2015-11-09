@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Roger González'
-SITENAME = u'Roger González - rogergonzalez.com.ve'
-SITETITLE = 'Roger González'
+AUTHOR = u'Roger Andrés González'
+SITENAME = u'Roger Andrés González - rogerandresgonzalez.com.ve'
+SITETITLE = 'Roger Andrés González'
 SITEURL = 'http://localhost:8000'
-#SITEURL = 'http://rogergonzalez21.github.io'
+#SITEURL = 'http://rogerandresgonzalez.com.ve'
 
 PATH = 'content'
 
