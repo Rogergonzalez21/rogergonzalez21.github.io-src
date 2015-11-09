@@ -96,6 +96,7 @@ Habilidades profesionales
 * **CSS**: Nivel medio.
 * **Bootstrap CSS Framework**: Nivel medio.
 * **Django Web Framework**: Nivel medio.
+* **Django API REST**: Nivel bajo.
 
 | Otras Herramientas:
 
