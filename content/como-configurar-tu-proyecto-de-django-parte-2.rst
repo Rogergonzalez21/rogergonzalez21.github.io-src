@@ -1,40 +1,41 @@
 ¿Cómo configurar tu primer proyecto de Django? Parte II
 #######################################################
 
-:date: 2015-10-25 19:08
+:date: 2015-11-10 19:08
 :category: Programación
 :slug: como-configurar-tu-primer-proyecto-de-django-parte-II
 :author: Roger González
 :summary: Es hora de hacer tu primera aplicación web. En este pequeño tutorial, te voy a enseñar a configurar tu primera aplicación con Django, vistas, modelos y templates.
 :tags: django, python
+:status: published
 
-Continuando el ultimo tutorial, ya tenemos nuestro proyecto de Django completamente funcional, pero aún nos falta crear nuestra primera **aplicación**.
+Continuando el `último tutorial`_, ya tenemos nuestro proyecto de Django completamente funcional, pero aún nos falta crear nuestra primera **aplicación**.
 
 Nota: El motivo de este tutorial **no** es crear una aplicación, sino aprender lo básico para hacer una aplicación con Django
 
 Pensé que eso es lo que ya teníamos, ¿Qué está pasando?
 -------------------------------------------------------
-Una 'aplicación' de Django no es lo mismo que un 'proyecto' de Django. ¿Por qué? Un proyecto es donde viven tus aplicaciónes. En un proyecto puedes tener 'n' aplicaciones, ordenadas y funcionando de forma conjunta. Eso no quiere decir que una aplicación no funcione en otro proyecto, todo lo contrario. El proyecto solo se encarga de mantener tu/tus aplicacion/es ordenada/s y en un mismo sitio.
+Una 'aplicación' de Django no es lo mismo que un 'proyecto' de Django. ¿Por qué? Un proyecto es donde viven tus aplicaciones. En un proyecto puedes tener 'n' aplicaciones, ordenadas y funcionando de forma conjunta. Eso no quiere decir que una aplicación no funcione en otro proyecto, todo lo contrario. El proyecto solo se encarga de mantener tu/tus aplicacion/es ordenada/s y en un mismo sitio.
 
 Para iniciar tu primera aplicación, debes estar en la carpeta del proyecto (donde está :code:`manage.py`), y teclear lo siguiente:
 
 .. code-block:: bash
 
-	(env)user@pc:~/proyecto/tests$ python manage.py startapp app_test
+    (env)user@pc:~/proyecto/tests$ python manage.py startapp app_test
 
-Esto dará inicio a la aplicación "app_test". si accecemos y hacemos :code:`ls`, nos va a mostrar su contenido.
+Esto dará inicio a la aplicación "app_test". si accedemos y hacemos :code:`ls`, nos va a mostrar su contenido.
 
 .. code-block:: bash
 
-	(env)user@pc:~/proyecto/tests$ cd app_test
-	(env)../app_test$ ls
-	
-	admin.py  
-	__init__.py  
-	migrations/  
-	models.py  
-	tests.py  
-	views.py
+    (env)user@pc:~/proyecto/tests$ cd app_test
+    (env)../app_test$ ls
+    
+    admin.py  
+    __init__.py  
+    migrations/  
+    models.py  
+    tests.py  
+    views.py
 
 Vamos a ir viendo para que funciona cada uno de los archivos.
 
@@ -49,11 +50,11 @@ Ya que sabemos que hace cada uno de los archivos, vamos a 'instalar' nuestra nue
 
 .. code-block:: python
 
-	INSTALLED_APPS = (
-	    'django.contrib.admin',
-	    '...'
-	    'app_test', # <----- Añadir nuestra aplicación al final
-	)
+    INSTALLED_APPS = (
+        'django.contrib.admin',
+        '...'
+        'app_test', # <----- Añadir nuestra aplicación al final
+    )
 
 Ya que nuestra aplicación está correctamente instalada, podemos empezar a hacer **modelos**, **vistas** y **rutas**.
 
@@ -66,22 +67,22 @@ Para hacer un modelo básico:
 
 .. code-block:: python
 
-	class Person(models.Model):
-	    name = models.CharField(max_length=120)
-	    phone = models.CharField(max_length=20)
-	    email = models.EmailField(max_length=120)
-	    address = models.CharField(max_length=120)
+    class Person(models.Model):
+        name = models.CharField(max_length=120)
+        phone = models.CharField(max_length=20)
+        email = models.EmailField(max_length=120)
+        address = models.CharField(max_length=120)
 
-	    def __unicode__(self):
-	        return self.name
+        def __unicode__(self):
+            return self.name
 
 Como podemos observar, hay diferentes tipos de campos en nuestro modelo. En el ejemplo solo usamos :code:`CharField` y :code:`EmailField` pero hay muchos mas. Siempre tenemos que asegurarnos que estamos usando el correcto. En `esta lista`_ podemos revisar todos los tipos de fields que tiene Django por defecto.
 
-En Django tambien podemos establecer **relaciones**.
+En Django también podemos establecer **relaciones** entre los modelos (como en las tablas de bases de datos).
 
-Para saber mas sobre modelos de Django, te recomiendo `esta guia`_ (en inglés).
+Para saber más sobre modelos de Django, te recomiendo `esta guia`_ (en inglés).
 
-Vistas 
+Vistas
 ------
 Las vistas_ son las que procesan toda la lógica de lo que sucede cuando el usuario interactúa con la página web. Por ejemplo, el envío de un formulario, la petición de una lista, la edición de una serie de datos, etc.
 
@@ -89,21 +90,21 @@ Una vista básica sería la siguiente:
 
 .. code-block:: python
 
-	from django.http import HttpResponse 
+    from django.http import HttpResponse
 
-	def index(request):
-		return HttpResponse('Hola mundo!')
+    def index(request):
+        return HttpResponse('Hola mundo!')
 
-Esta vista solo nos va a devolver "Hola Mundo!", que quizá no sea lo mas interesante del mundo. Vamos a realizar una vista un poco mas completa.
+Esta vista solo nos va a devolver "Hola Mundo!", que quizá no sea lo más interesante del mundo. Vamos a realizar una vista un poco más completa.
 
 .. code-block:: python
-	
-	from django.shortcuts import render 
-	from app_test.models import Person
+    
+    from django.shortcuts import render
+    from app_test.models import Person
 
-	def index(request):
-	    persons = Person.objects.all()
-	    return render(request, 'index.html', {'persons' : persons})
+    def index(request):
+        persons = Person.objects.all()
+        return render(request, 'index.html', {'persons' : persons})
 
 En esta vista estamos haciendo varias cosas. Primero, estamos importando nuestro modelo, :code:`Person`, y :code:`render`, que nos va a formatear el contexto en una plantilla HTML.
 
@@ -111,32 +112,32 @@ Luego, en nuestra función :code:`index`, hacemos una búsqueda en nuestra base 
 
 .. code-block:: sql
 
-	SELECT * FROM Person
+    SELECT * FROM Person
 
-Y por ultimo, retornamos :code:`render` con el nombre de nuestro template (:code:`index.html`) y nuestro diccionario (:code:`{'persons' : persons}`). Mas adelante veremos como funcionan las vistas en conjunto con los templates.
+Y por último, retornamos :code:`render` con el nombre de nuestro template (:code:`index.html`) y nuestro diccionario (:code:`{'persons' : persons}`). Más adelante veremos cómo funcionan las vistas en conjunto con los templates.
 
-Para saber mejor como funcionan las vistas, te recomiendo `esta página`_
+Para saber mejor cómo funcionan las vistas, te recomiendo `esta página`_ (en inglés)
 
 URL's
 -----
-El concepto del URL es básico. ¿Cómo un usuario va a llegar a nuestra flamante y nueva aplicación, si no tienen como hacerlo? Aquí es donde llegan las URL. Las URL no son mas que la dirección de las páginas de la aplicación. Cada una de las vistas de nuestra aplicación debe tener una URL para que puedan ser accedidas. Por ejemplo, :code:`www.miaplicacionweb.com/app-test`. Para definir nuestras URL's, tenemos que crear un archivo para colocarlas. En :code:`tests/app_test/` vamos a crear un archivo que se llame :code:`urls.py` y vamos a añadir lo siguiente:
+El concepto del URL es básico. ¿Cómo un usuario va a llegar a nuestra flamante y nueva aplicación, si no tienen cómo hacerlo? Aquí es donde llegan las URL. Las URL no son más que la dirección de las páginas de la aplicación. Cada una de las vistas de nuestra aplicación debe tener una URL para que puedan ser accedidas. Por ejemplo, :code:`www.miaplicacionweb.com/app-test`. Para definir nuestras URL's, tenemos que crear un archivo para colocarlas. En :code:`tests/app_test/` vamos a crear un archivo que se llame :code:`urls.py` y vamos a añadir lo siguiente:
 
 .. code-block:: python
 
-	from django.conf.urls import patterns, url
-	from app_test import views
+    from django.conf.urls import patterns, url
+    from app_test import views
 
-	urlpatterns = patterns('',
-	        url(r'^index$', views.index, name='index'),
+    urlpatterns = patterns('',
+            url(r'^index$', views.index, name='index'),
 
-	    )
+        )
 
 Aquí me voy a detener un poco.
 
 - Primero, importamos :code:`patterns` y :code:`url`, que son necesarios para la creación de URL's, y nuestras vistas.
 - Luego, creamos nuestros patterns. Cada pattern se compone por un :code:`url`, que a su vez se compone por:
 
-  + Una expresion regular que dice cual es la dirección de la URL. En nuestro caso es "index"
+  + Una expresión regular que dice cual es la dirección de la URL. En nuestro caso es "index"
   + La vista que representa
   + El nombre para identificar la URL
 
@@ -144,20 +145,20 @@ Luego de registrar los URL de la app, hay que registrar los URL del proyecto. En
 
 .. code-block:: python
 
-	from django.conf.urls import include, url
-	from django.contrib import admin
+    from django.conf.urls import include, url
+    from django.contrib import admin
 
-	urlpatterns = [
-	    url(r'^admin/', include(admin.site.urls)),
-	    url(r'^', include('app_test.urls')), # <----- Agregar esta linea!
-	]
+    urlpatterns = [
+        url(r'^admin/', include(admin.site.urls)),
+        url(r'^', include('app_test.urls')), # <----- Agregar esta linea!
+    ]
 
 Siguiendo la misma lógica del anterior, el url se compone por:
 
 - Una expresión regular que dice cual es la dirección de la URL. En esta caso es ''.
 - Un include de nuestro archivo de URL's en la aplicación :code:`app_test`
 
-Ya que tenemos nuestros URL's configurados, podemos acceder a nuestra vista desde el navegador. Para saber mas sobre URL's, puedes investigar en `este enlace`_
+Ya que tenemos nuestros URL's configurados, podemos acceder a nuestra vista desde el navegador. Para saber más sobre URL's, puedes investigar en `este enlace`_ (en inglés)
 
 Solo falta el template para poder renderizar lo que queremos.
 
@@ -174,7 +175,7 @@ Llegamos a la última parte de este tutorial. Los templates son los archivos :co
     </head>
     <body>
       <h1>Hola mundo!</h1>
-      <table class="table table-hover">
+      <table>
       <thead>
       <tr>
       <th>Nombre</th>
@@ -197,9 +198,43 @@ Llegamos a la última parte de este tutorial. Los templates son los archivos :co
     </body>
   </html>
 
+Para probar todo lo que llevamos, debemos aplicar las migraciones, crear la base de datos y correr el servidor de pruebas.
 
+.. code-block:: bash
 
+    (env)../app_test$ cd ..
+    (env)../proyecto/tests$ python manage.py makemigrations app_test
 
+    # Se generan las migraciones
+
+    (env)../proyecto/tests$ python manage.py migrate
+
+    # Se crea la base de datos
+
+    (env)../proyecto/tests$ python manage.py createsuperuser
+
+    # Se crea el superusuario, lo usaremos en el siguiente paso del tutorial
+
+    (env)../proyecto/tests$ python manage.py runserver
+
+    System check identified no issues (0 silenced).
+    November 10, 2015 - 12:32:06
+    Django version 1.8.6, using settings 'tests.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
+
+Si entramos en la dirección :code:`localhost:8000/index` o :code:`http://127.0.0.1:8000/index`, vamos a ver que todo está funcionando correctamente.
+
+.. image:: {filename}/images/django_tutorial/hello_world.png
+    :alt: Aplicación funcionando
+
+Tu proyecto ya debería de verse así_. 
+
+Por ahora todo es muy básico, tenemos un modelo que guarda personas, una vista que devuelve una lista de personas, y un template para mostrar esa vista. En la tercera parte del tutorial vamos a aprender a hacer un formulario para añadir datos, y cómo usar el `administrador de Django`_.
+
+Hasta la próxima.
+
+.. _último tutorial: {filename}/como-configurar-tu-proyecto-de-django-parte-1.rst
 .. _administrador de Django: https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
 .. _modelos: https://docs.djangoproject.com/en/stable/topics/db/models/
 .. _esta lista: https://docs.djangoproject.com/en/1.8/ref/models/fields/#model-field-types
@@ -208,3 +243,5 @@ Llegamos a la última parte de este tutorial. Los templates son los archivos :co
 .. _esta página: https://docs.djangoproject.com/en/1.8/topics/http/views/
 .. _este enlace: https://docs.djangoproject.com/en/1.8/topics/http/urls/
 .. _Jinja2: http://jinja.pocoo.org/docs/dev/
+.. _así: https://github.com/Rogergonzalez21/django-tutorial/tree/188e15c3058ffd9b7004e880447e6b2146bdf08d
+
