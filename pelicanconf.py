@@ -35,6 +35,9 @@ I18N_SUBSITES = {
              ('English', '/')),
        	'THEME': 'svbhack-theme',
        	'TAGLINE': 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.',
+        'SOCIAL': (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
+          ('github', 'https://github.com/Rogergonzalez21'),
+          ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
         }
     }
 
@@ -84,7 +87,7 @@ ARCHIVES_URL = 'archives/'
 ARCHIVES_SAVE_AS = 'archives/index.html'
 
 # Social widget
-SOCIAL = (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
+SOCIAL = (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21/en'),
           ('github', 'https://github.com/Rogergonzalez21'),
           ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve'))
 
@@ -92,3 +95,4 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+    
