@@ -12,7 +12,7 @@ Personal information
 --------------------
 | Name: Roger Andrés González Sánchez. 
 | Nacionality: Venezuelan.
-| Email: `rogergonzalez21@gmail.com <mailto:rogergonzalez21@gmail.com>`_.
+| Email: `me@rogerandresgonzalez.com.ve <mailto:me@rogerandresgonzalez.com.ve>`_.
 | Date of birth: August 10, 1993 (22 years old)
 
 Experience

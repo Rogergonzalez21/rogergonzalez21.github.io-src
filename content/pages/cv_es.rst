@@ -12,7 +12,7 @@ Información personal
 --------------------
 | Nombre completo: Roger Andrés González Sánchez. 
 | Nacionalidad: Venezolano.
-| Correo Electronico: `rogergonzalez21@gmail.com <mailto:rogergonzalez21@gmail.com>`_.
+| Correo Electronico: `me@rogerandresgonzalez.com.ve <mailto:me@rogerandresgonzalez.com.ve>`_.
 | Fecha de nacimiento: 10 de Agosto de 1993 (22 años)
 
 Experiencias
