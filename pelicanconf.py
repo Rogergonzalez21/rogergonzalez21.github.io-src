@@ -28,17 +28,19 @@ PLUGINS = ['i18n_subsites', 'sitemap',]
 I18N_SUBSITES = {
     'es': {
         'MENUITEMS': (('Acerca de', '/es/pages/about/'),
-			 ('Curriculum', '/es/pages/curriculum/'),
-			 ('Archivos', '/es/archives/'),
-             ('Categorías', '/es/category/'),
-             ('Tags', '/es/tag/'),
-             ('English', '/')),
+			                ('Curriculum', '/es/pages/curriculum/'),
+			                ('Archivos', '/es/archives/'),
+                      ('Categorías', '/es/category/'),
+                      ('Tags', '/es/tag/'),
+                      ('English', '/')),
        	'THEME': 'svbhack-theme',
        	'TAGLINE': 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.',
         'SOCIAL': (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
-          ('github', 'https://github.com/Rogergonzalez21'),
-          ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
-    'HREFLANG' : (('en', 'rogerandresgonzalez.com.ve'),)
+                   ('github', 'https://github.com/Rogergonzalez21'),
+                   ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
+        'HREFLANG' : (('en', 'rogerandresgonzalez.com.ve'),),
+        'NEW_POSTS' : "Nuevas Publicaciones",
+        'OLD_POSTS' : "Publicaciones Anteriores",
         }
     }
 
@@ -56,6 +58,10 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# Pagination configs
+NEW_POSTS = 'Newer Posts'
+OLD_POSTS = 'Older Posts'
 
 # Other configs 
 HREFLANG = (('es', 'rogerandresgonzalez.com.ve/es/'),)
