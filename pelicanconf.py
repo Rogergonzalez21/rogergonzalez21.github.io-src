@@ -38,6 +38,7 @@ I18N_SUBSITES = {
         'SOCIAL': (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
           ('github', 'https://github.com/Rogergonzalez21'),
           ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
+    'HREFLANG' : (('en', 'rogerandresgonzalez.com.ve'),)
         }
     }
 
