@@ -42,6 +42,7 @@ I18N_SUBSITES = {
     }
 
 # Other configs 
+HREFLANG = (('es', 'rogerandresgonzalez.com.ve/es/'),)
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_DATE_FORMAT = '%d/%m/%Y'
 SUMMARY_MAX_LENGTH = 50
