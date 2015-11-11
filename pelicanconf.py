@@ -22,7 +22,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'sitemap',]
 
 # Language configs
 I18N_SUBSITES = {
@@ -40,6 +40,21 @@ I18N_SUBSITES = {
           ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
         }
     }
+
+# Sitemap
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
 # Other configs 
 HREFLANG = (('es', 'rogerandresgonzalez.com.ve/es/'),)
