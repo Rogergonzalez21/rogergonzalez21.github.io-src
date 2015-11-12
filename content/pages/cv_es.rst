@@ -114,4 +114,4 @@ Hobbies
 * Investigar nuevas tecnologías.
 
 
-Para mayor información, por favor comunicarse vía `correo electrónico <mailto:rogergonzalez21@gmail.com>`_.
+Para mayor información, por favor comunicarse vía `correo electrónico <mailto:me@rogerandresgonzalez.com.ve>`_.

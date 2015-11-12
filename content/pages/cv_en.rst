@@ -106,4 +106,4 @@ Hobbies
 * Travelling.
 * Investigating new technologies.
 
-For more info, please contact via `email <mailto:rogergonzalez21@gmail.com>`_.
+For more info, please contact via `email <mailto:me@rogerandresgonzalez.com.ve>`_.
