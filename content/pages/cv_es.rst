@@ -69,7 +69,6 @@ Universidad Tecnológica del Centro
 Universidad Tecnológica del Centro
 **********************************
 | **Ingeniero en Información**
-| Todas las materias aprobadas. Tesis aprobada. A espera de graduación.
 | 2013 - 2015
 
 Idiomas
@@ -104,6 +103,7 @@ Habilidades profesionales
 * **Virtual Box**: Nivel alto.
 * **Git**: Nivel medio.
 * **Google Docs**: Nivel intermedio - alto.
+* **Google Analytics**: Nivel intermedio - alto.
 
 Hobbies
 -------

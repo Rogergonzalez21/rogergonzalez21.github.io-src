@@ -97,6 +97,7 @@ Professional Skills
 * **Virtual Box**: High.
 * **Git**: Medium.
 * **Google Docs**: Medium - High.
+* **Google Analytics**: Medium - High.
 
 Hobbies
 -------
