@@ -27,7 +27,7 @@ Todo me encantó. El video, la música, la actriz, TODO. Eso me llamó la atenci
 
 La música
 ---------
-Oh Dios mío, la música. Muy autóctona (la banda es de Mérida), pero con un tono actual que no se puede negar. Nade de `Wendy Sulca y su tetita`_. Una ejecución musical excelente. Emocionantes cuando deben serlo, lentos cuando deben serlo.
+Oh Dios mío, la música. Muy autóctona (la banda es de Mérida), pero con un tono actual que no se puede negar. Nada de `Wendy Sulca y su tetita`_. Una ejecución musical excelente. Emocionantes cuando deben serlo, lentos cuando deben serlo.
 
 La primera canción del disco te atrapa y no te deja ir hasta que el disco termine.
 
