@@ -39,7 +39,7 @@ Y el video, ni que hablar. Te hace sentir como si estuvieras allí, viendo esos 
 
 Mi canción preferida del disco es **Merlina**, aunque **[BIS]**, **Envolvente** y **Afra** también son muy buenas.
 
-Realmente este disco demuestra que en Venezuela hay bandas muy buenas, y que quizá no sea tan conocidas e internacionales como La Vida Boheme, Viniloversus o Los Amigos Invisibles, que pueden ser más fáciles de ver en vivo que Foo Fighters o Artic Monkeys.
+Realmente este disco demuestra que en Venezuela hay bandas muy buenas, que quizá no sean tan conocidas e internacionales como La Vida Boheme, Viniloversus o Los Amigos Invisibles, pero pueden ser más fáciles de ver en vivo que Foo Fighters o Artic Monkeys.
 
 Así que, ¡A apoyar el talento Venezolano!
 
