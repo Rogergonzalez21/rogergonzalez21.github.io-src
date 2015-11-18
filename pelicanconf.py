@@ -47,6 +47,7 @@ I18N_SUBSITES = {
 # Sitemap
 SITEMAP = {
     'format': 'xml',
+    'exclude': ['tag/', 'category/', 'drafts/'],
     'priorities': {
         'articles': 0.5,
         'indexes': 0.5,
