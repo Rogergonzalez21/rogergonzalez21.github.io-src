@@ -1,16 +1,20 @@
 Música que debes escuchar: Y/O de Charliepapa
 #############################################
 
-:date: 2015-10-24 17:20
+:date: 2015-11-18 17:20
 :category: Música
 :slug: musica-que-debes-escuchar-yo-charliepapa
 :author: Roger González
 :summary: Música que debes escuchar - Y/O de Charliepapa
 :tags: musica que debes escuchar, charliepapa
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+¡Hola! Hoy vengo con un post menos... ¿Nerd?. A mi me encanta la música desde que soy muy pequeño. Rock clásico, psicodelico, pesado... Desde hace unos cuantos años, he querido actualizarme un poco con la música Venezolana. La Vida Boheme, Rawayana, Vinilo Versus, Americania, entre otros. Recientemente, un disco llamó mi atención, y es del que vengo a hablar hoy.
+
+Y/O de Charliepapa
+------------------ 
+
+.. figure:: {filename}/images/musica_que_debes_escuchar/y-o.jpg
+    :alt: Portada Y/O 
+
+.. figure:: {filename}/images/django_tutorial/django.png
+    :alt: Django
