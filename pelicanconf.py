@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from pyembed.rst import PyEmbedRst
+
 
 AUTHOR = u'Roger Andrés González'
 SITENAME = u'Roger Andrés González - rogerandresgonzalez.com.ve'
@@ -22,7 +24,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['i18n_subsites', 'sitemap',]
+PLUGINS = ['i18n_subsites', 'sitemap', 'pelican_youtube',]
 
 # Language configs
 I18N_SUBSITES = {
@@ -59,6 +61,9 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# PyEmbed
+PyEmbedRst().register()
 
 # Pagination configs
 NEW_POSTS = 'Newer Posts'
