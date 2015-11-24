@@ -74,6 +74,7 @@ HREFLANG = (('es', 'rogerandresgonzalez.com.ve/es/'),)
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_DATE_FORMAT = '%d/%m/%Y'
 SUMMARY_MAX_LENGTH = 50
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 SLUGIFY_SOURCE = 'title'
 STATIC_PATHS = ['images']
 THEME = 'svbhack-theme'
@@ -122,7 +123,7 @@ SOCIAL = (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21/en'),
           ('github', 'https://github.com/Rogergonzalez21'),
           ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve'))
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
