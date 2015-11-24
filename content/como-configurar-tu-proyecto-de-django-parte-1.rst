@@ -160,6 +160,10 @@ Igualmente, esto no es todo. Solo hemos configurado tu primer proyecto. Aún fal
 
 Mientras tanto, ¡Hasta la próxima!
 
+`Parte 2: Aplicación, Vistas, Modelos, Templates y URLS`_
+
+`Parte 3: Django Admin y Formularios`_
+
 .. _Python: https://www.python.org/
 .. _tutorial: https://www.codecademy.com/es/tracks/python
 .. _Disqus: https://disqus.com/home/explore/
@@ -170,3 +174,5 @@ Mientras tanto, ¡Hasta la próxima!
 .. _pip: https://es.wikipedia.org/wiki/Pip_%28administrador_de_paquetes%29
 .. _Aquí: http://codecondo.com/popular-websites-django/
 .. _Así: https://github.com/Rogergonzalez21/django-tutorial/tree/4fe1d18891dbd3d6da202a906fb064bfba357b8b
+.. _`Parte 2: Aplicación, Vistas, Modelos, Templates y URLS`: {filename}/como-configurar-tu-proyecto-de-django-parte-2.rst
+.. _`Parte 3: Django Admin y Formularios`: {filename}/como-configurar-tu-proyecto-de-django-parte-3.rst

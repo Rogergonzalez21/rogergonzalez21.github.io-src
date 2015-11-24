@@ -234,6 +234,10 @@ Por ahora todo es muy básico, tenemos un modelo que guarda personas, una vista 
 
 Hasta la próxima.
 
+`Parte 1: Preparando nuestro proyecto de Django`_
+
+`Parte 3: Django Admin y Formularios`_
+
 .. _último tutorial: {filename}/como-configurar-tu-proyecto-de-django-parte-1.rst
 .. _administrador de Django: https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
 .. _modelos: https://docs.djangoproject.com/en/stable/topics/db/models/
@@ -244,4 +248,5 @@ Hasta la próxima.
 .. _este enlace: https://docs.djangoproject.com/en/1.8/topics/http/urls/
 .. _Jinja2: http://jinja.pocoo.org/docs/dev/
 .. _así: https://github.com/Rogergonzalez21/django-tutorial/tree/188e15c3058ffd9b7004e880447e6b2146bdf08d
-
+.. _`Parte 1: Preparando nuestro proyecto de Django`: {filename}/como-configurar-tu-proyecto-de-django-parte-1.rst
+.. _`Parte 3: Django Admin y Formularios`: {filename}/como-configurar-tu-proyecto-de-django-parte-3.rst
