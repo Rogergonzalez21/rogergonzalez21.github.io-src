@@ -75,6 +75,7 @@ DISPLAY_PAGES_ON_MENU = False
 DEFAULT_DATE_FORMAT = '%d/%m/%Y'
 SUMMARY_MAX_LENGTH = 50
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 SLUGIFY_SOURCE = 'title'
 STATIC_PATHS = ['images']
 THEME = 'svbhack-theme'
