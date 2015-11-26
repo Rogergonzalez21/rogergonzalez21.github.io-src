@@ -65,6 +65,22 @@ Universidad Tecnológica del Centro
 | **Computer Engineering**
 | 2013 - 2015
 
+Coursera - Universidad of California (San Diego, California, EEUU)
+******************************************************************
+| Learning How to Learn: Powerful mental tools to help you master tough subjects.
+| Online course.
+
+Coursera - Universidad de Duke (Durham, Carolina del Norte, EEUU)
+*****************************************************************
+| Copyright for educators and Librarians.
+| Online course.
+
+Google - Escuela de Organización Industrial (Madrid, España)
+************************************************************
+| Google Analytics course, certified by Google.
+| Online course.
+| `Diploma <https://drive.google.com/file/d/0B4KegKrQMPnoM3Z1eGo4eDdMNXc/view?usp=sharing>`_
+
 Languages
 ---------
 | **Spanish**: Mother toungue.

@@ -71,6 +71,23 @@ Universidad Tecnológica del Centro
 | **Ingeniero en Información**
 | 2013 - 2015
 
+Coursera - Universidad de California (San Diego, California, EEUU)
+******************************************************************
+| Learning How to Learn: Powerful mental tools to help you master tough subjects.
+| Curso online. Aprobado en todos los niveles.
+
+Coursera - Universidad de Duke (Durham, Carolina del Norte, EEUU)
+*****************************************************************
+| Copyright for educators and Librarians.
+| Curso online. Aprobado en todos los niveles.
+
+Google - Escuela de Organización Industrial (Madrid, España)
+************************************************************
+| Curso de Analítica Web, reconocido por Google.
+| Curso online. Aprobado en todos los niveles.
+| `Diploma <https://drive.google.com/file/d/0B4KegKrQMPnoM3Z1eGo4eDdMNXc/view?usp=sharing>`_
+
+
 Idiomas
 -------
 | **Español**: Lengua materna.
