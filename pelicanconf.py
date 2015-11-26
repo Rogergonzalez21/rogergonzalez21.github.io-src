@@ -39,7 +39,8 @@ I18N_SUBSITES = {
        	'TAGLINE': 'Pythonista. De buen comer. Crítico. Amante de la música. Siempre con ganas de aprender.',
         'SOCIAL': (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21'),
                    ('github', 'https://github.com/Rogergonzalez21'),
-                   ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve')),
+                   ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve'),
+                   ('twitter', 'https://twitter.com/RogerGonzalez21')),
         'HREFLANG' : (('en', 'rogerandresgonzalez.com.ve'),),
         'NEW_POSTS' : "Nuevas Publicaciones",
         'OLD_POSTS' : "Publicaciones Anteriores",
@@ -122,7 +123,8 @@ ARCHIVES_SAVE_AS = 'archives/index.html'
 # Social widget
 SOCIAL = (('linkedin', 'https://ve.linkedin.com/in/rogergonzalez21/en'),
           ('github', 'https://github.com/Rogergonzalez21'),
-          ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve'))
+          ('envelope-o', 'mailto:me@rogerandresgonzalez.com.ve'),
+          ('twitter', 'https://twitter.com/RogerGonzalez21'))
 
 DEFAULT_PAGINATION = 10
 
