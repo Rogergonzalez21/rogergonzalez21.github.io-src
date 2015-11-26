@@ -1,15 +1,16 @@
 ¿Cómo hacer un deploy de una aplicación de Django a Openshift?
 ##############################################################
 
-:date: 2015-10-23 8:20
+:date: 2015-11-26 13:40
 :category: Programación
 :slug: deploy-django-a-openshift
 :author: Roger González
 :summary:
-    Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?
+    Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como van a usar tu aplicación **si no se puede llegar a ella**?.
 :tags: deploy, django, openshift, python, tutorial
+:status: published
 
-Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como la gente va a usar tu aplicación **si no pueden llegar a ella**?.
+Algo muy importante luego de que haces tu aplicación en Django es hacer el deploy. ¿Como van a usar tu aplicación **si no se puede llegar a ella**?.
 
 Aquí llega Red Hat al rescate con su servicio PaaS_, OpenShift_.
 
@@ -246,6 +247,12 @@ Especiales agradecimientos al usuario `Luis Masuelli`_ de Stack-Overflow, que hi
 
 Hasta la próxima.
 
+`Parte 1: Preparando nuestro proyecto de Django`_
+
+`Parte 2: Aplicación, Vistas, Modelos, Templates y URLS`_
+
+`Parte 3: Django Admin y Formularios`_
+
 .. _PaaS: https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_
 .. _Openshift: https://openshift.redhat.com/
 .. _configurar tu cuenta: https://developers.openshift.com/en/getting-started-overview.html
@@ -253,3 +260,6 @@ Hasta la próxima.
 .. _wsgi: http://python.org.ar/wiki/WSGI
 .. _Luis Masuelli: http://stackoverflow.com/users/1105249/luis-masuelli
 .. _este maravilloso aporte: http://stackoverflow.com/questions/26871381/deploying-a-local-django-app-using-openshift/26874375#26874375
+.. _`Parte 1: Preparando nuestro proyecto de Django`: {filename}/como-configurar-tu-proyecto-de-django-parte-1.rst
+.. _`Parte 2: Aplicación, Vistas, Modelos, Templates y URLS`: {filename}/como-configurar-tu-proyecto-de-django-parte-2.rst
+.. _`Parte 3: Django Admin y Formularios`: {filename}/como-configurar-tu-proyecto-de-django-parte-3.rst
