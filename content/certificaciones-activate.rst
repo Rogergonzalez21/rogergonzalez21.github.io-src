@@ -23,7 +23,7 @@ Activate ofrece diversos cursos, que son 100% reconocidos por Google, y más imp
 
 La lista de cursos, el registro y su descripción, la puedes conseguir aquí, pero igualmente te enumero los cursos:
 
-- `Marketing digital`_
+- `Marketing Digital`_
 - `Desarrollo de Apps`_
 - `Analítica de Datos (Google Analytics)`_
 - `Comercio Electrónico`_
@@ -34,9 +34,9 @@ La lista de cursos, el registro y su descripción, la puedes conseguir aquí, pe
 
 ¿Y qué necesito para hacer estos cursos?
 ----------------------------------------
-¡Solo necesitas tu cuenta de Google y estás listo! ¿Qué esperas para aprovechar esta gran oportunidad que te ofrece Google con el Gobierno de España?
+¡Sólo necesitas tu cuenta de Google y estás listo! ¿Qué esperas para aprovechar esta gran oportunidad que te ofrece Google con el Gobierno de España?
 
-`Yo hice el curso de Analitica web`_ y lo recomiendo ampliamente.
+`Yo hice el curso de Analítica web`_ y lo recomiendo ampliamente.
 
 Espero que puedas aprovechar estos recursos.
 
@@ -45,7 +45,7 @@ Hasta la próxima.
 .. _actívate: http://www.google.es/landing/activate
 .. _muchas universidades: http://www.google.es/landing/activate/colaboradores/
 .. _aquí: http://www.google.es/landing/activate/formate/index.html
-.. _Marketing digital: http://cursos.formacionactivate.es/marketing-digital
+.. _Marketing Digital: http://cursos.formacionactivate.es/marketing-digital
 .. _Desarrollo de Apps: https://cursos.formacionactivate.es/apps-moviles
 .. _Analítica de Datos (Google Analytics): http://cursos.formacionactivate.es/analitica-web
 .. _Comercio Electrónico: http://cursos.formacionactivate.es/comercio-electronico
@@ -53,4 +53,4 @@ Hasta la próxima.
 .. _Emprendimiento: http://aemprende.unimooc.com/student/itineraries/activate
 .. _Productividad Propia: https://cursos.formacionactivate.es/productividad-personal
 .. _Desarrollo Web (I): https://formacionactivate.appspot.com/idesweb-parte-1/
-.. _Yo hice el curso de Analitica web: https://drive.google.com/file/d/0B4KegKrQMPnoM3Z1eGo4eDdMNXc/view?usp=sharing
+.. _Yo hice el curso de Analítica web: https://drive.google.com/file/d/0B4KegKrQMPnoM3Z1eGo4eDdMNXc/view?usp=sharing
