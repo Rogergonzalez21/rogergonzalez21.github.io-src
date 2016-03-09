@@ -36,6 +36,12 @@ Ediciones Delforn
 | Desarrollo de una aplicación para realizar órdenes de trabajo en Python, haciendo uso de Django (`repositorio DelfornApps <https://github.com/Rogergonzalez21/DelfornApps>`_).
 | Desde septiembre 2014 hasta agosto 2015
 
+Cleteci
+*******
+| Desarrollador Web Python.
+| Encargado de un proyecto para fotografos, para manejar fotos, venderlas y organizar las órdenes de impresión y las órdenes de compra.
+| Desde Enero 2016.
+
 Trabajos Freelance
 ------------------
 Editorial Bautista de Venezuela
@@ -103,7 +109,8 @@ Habilidades profesionales
 | Programación:
 
 * **Python**: Nivel medio.
-* **JavaScript**: Nivel bajo.
+* **Ruby**: Nivel bajo.
+* **JavaScript**: Nivel bajo - medio.
 * **SQL**: Nivel bajo - medio.
 
 | Web:
@@ -112,7 +119,9 @@ Habilidades profesionales
 * **CSS**: Nivel medio.
 * **Bootstrap CSS Framework**: Nivel medio.
 * **Django Web Framework**: Nivel medio.
-* **Django API REST**: Nivel bajo.
+* **Rails Web Framework**: Nivel bajo - medio.
+* **Angular.js**: Nivel bajo.
+* **jQuery**: Nivel medio.
 
 | Otras Herramientas:
 

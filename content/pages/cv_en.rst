@@ -35,6 +35,12 @@ Ediciones Delforn
 | Development of a work orders app in Python, using Django (`repository DelfornApps <https://github.com/Rogergonzalez21/DelfornApps>`_).
 | From September 2014 to August 2015
 
+Cleteci
+*******
+| Python Web Developer.
+| Working on a project for a photographer, to easely manage pictures, sell them, handle the print orders and the buy orders.
+| From January 2016.
+
 Freelance work
 --------------
 Editorial Bautista de Venezuela
@@ -95,21 +101,24 @@ Professional Skills
 
 | Programming:
 
-* **Python**: Medium.
-* **JavaScript**: Low.
-* **SQL**: Low - Medium
+* **Python**: Medium - High.
+* **Ruby**: Low.
+* **JavaScript**: Low - Medium.
+* **SQL**: Low - Medium.
 
 | Web:
 
 * **HTML**: High.
 * **CSS**: Medium.
-* **Bootstrap CSS Framework**: Medium.
-* **Django Web Framework**: Medium.
-* **Django API REST**: Low.
+* **Bootstrap CSS Framework**: High.
+* **Django Web Framework**: Medium - High.
+* **Rails Web Framework**: Low - Medium.
+* **Angular.js**: Low.
+* **jQuery**: Medium.
 
 | Other tools:
 
-* **Suite Ofimática Office 2003 - 2013**: High.
+* **Office 2003 - 2013**: High.
 * **Virtual Box**: High.
 * **Git**: Medium.
 * **Google Docs**: Medium - High.
